@@ -1,0 +1,18 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# Exclude uploaded files
+assets
+×
+Drag and Drop
+The image will be downloaded
+.vscode/

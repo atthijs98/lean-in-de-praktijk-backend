@@ -1,0 +1,13 @@
+{
+  "LOGIN_FAILED": "Login is gefaald: het email of wachtwoord is incorrect.",
+  "LOGIN_SUCCESS": "Login is succesvol",
+  "ACCOUNT_CREATED" : "Account is aangemaakt",
+  "REGISTER_FAILED" : "Account kan niet worden aangemaakt",
+  "INVALID_PASSWORD" : "Het ingevoerde wachtwoord is incorrect",
+  "USER_FROM_ID_RETRIEVED" : "De gebruiker met het gegeven id is succesvol opgehaald",
+  "USER_PRIVILEGE_CHANGED" : "Het privilege van deze gebruiker is nu aangepast",
+  "USER_NOT_PRIVILEGED" : "U heeft niet het juiste privilege om deze actie uit te voeren",
+  "USER_LANGUAGE_CHANGED" : "De taal is veranderd",
+  "USER_PASSWORD_CHANGED": "Het wachtwoord is succesvol gewijzigd",
+  "PASSWORD_NOT_NEW": "Het gegeven wachtwoord is het zelfde als het vorige wachtwoord."
+}

@@ -1,0 +1,13 @@
+{
+  "LOGIN_FAILED": "Login has failed, the email or password is not correct",
+  "LOGIN_SUCCESS": "Login succeeded",
+  "ACCOUNT_CREATED" : "Account was created",
+  "REGISTER_FAILED" : "Account could not be created",
+  "INVALID_PASSWORD" : "The given password is invalid",
+  "USER_FROM_ID_RETRIEVED" : "Successfully retrieved user from id",
+  "USER_PRIVILEGE_CHANGED" : "Successfully changed user privilege",
+  "USER_NOT_PRIVILEGED" : "You do not have the right privilege for this action",
+  "USER_LANGUAGE_CHANGED" : "The language has been changed",
+  "USER_PASSWORD_CHANGED": "Successfully changed password",
+  "PASSWORD_NOT_NEW": "The given password is the same as the previous password"
+}

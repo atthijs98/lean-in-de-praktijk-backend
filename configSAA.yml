@@ -1,0 +1,59 @@
+logging:
+  level: INFO
+  loggers:
+    lean: DEBUG
+
+jwtSecret: "BDCK*1iHlS=hFztZdR%1wKcZY^bK_ldR%oBPNJgRfXF63zmZt!D0sVODtJHrCEazVp-rlN!DUS?$GIQ3qY8BiU6lNv$FHtoErIV12BCYbX@90eNG8grEiYNMULLXyhjdU8nSiEZuVLvcZLE0S?+5lXkh=VMi2J=RfxXWXy3mgTvfZ_J_u0w_rgwaVlG_Za4kRlKNR!$NpkWS2dcuGPnA2X_3ZZDOiRzx6oAr!Wi2P?BaAR*cye-x0xUgN!OBpM7%"
+
+server:
+  rootPath: "/SAA/*"
+
+files:
+  saveFolder: "assets/"
+  allowedMimeTypes:
+    - "image/jpeg"
+    - "image/png"
+    - "image/jpg"
+    - "application/pdf"
+    - "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+
+database:
+  # the name of your JDBC driver
+  driverClass: org.postgresql.Driver
+
+  # the username
+  user: postgres
+
+  # the password
+  password: root
+
+  # the JDBC URL
+  url: jdbc:postgresql://127.0.0.1:5432/lean
+
+  # any properties specific to your JDBC driver:
+  properties:
+    charSet: UTF-8
+
+  # the maximum amount of time to wait on an empty pool before throwing an exception
+  maxWaitForConnection: 1s
+
+  # the SQL query to run when validating a connection's liveness
+  validationQuery: "/* MyService Health Check */ SELECT 1"
+
+  # the timeout before a connection validation queries fail
+  validationQueryTimeout: 3s
+
+  # the minimum number of connections to keep open
+  minSize: 8
+
+  # the maximum number of connections to keep open
+  maxSize: 32
+
+  # whether or not idle connections should be validated
+  checkConnectionWhileIdle: false
+
+  # the amount of time to sleep between runs of the idle connection validation, abandoned cleaner and idle pool resizing
+  evictionInterval: 10s
+
+  # the minimum amount of time an connection must sit idle in the pool before it is eligible for eviction
+  minIdleTime: 1 minute
