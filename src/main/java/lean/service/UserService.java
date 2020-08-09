@@ -176,4 +176,13 @@ public class UserService {
             return userDAO.setNewPassword(password, id);
         }
     }
+
+    /**
+     *
+     * @param id
+     * @return
+     */
+    public int getPrivilegeOfUser(int id) {
+        return userDAO.getPrivilegeById(id);
+    }
 }
