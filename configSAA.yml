@@ -6,7 +6,7 @@ logging:
 jwtSecret: "BDCK*1iHlS=hFztZdR%1wKcZY^bK_ldR%oBPNJgRfXF63zmZt!D0sVODtJHrCEazVp-rlN!DUS?$GIQ3qY8BiU6lNv$FHtoErIV12BCYbX@90eNG8grEiYNMULLXyhjdU8nSiEZuVLvcZLE0S?+5lXkh=VMi2J=RfxXWXy3mgTvfZ_J_u0w_rgwaVlG_Za4kRlKNR!$NpkWS2dcuGPnA2X_3ZZDOiRzx6oAr!Wi2P?BaAR*cye-x0xUgN!OBpM7%"
 
 server:
-  rootPath: "/SAA/*"
+  rootPath: "/API/*"
 
 files:
   saveFolder: "assets/"
